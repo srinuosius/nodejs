@@ -22,4 +22,5 @@ const BrandName = mongoose.Schema({
     default: Date.now(),
   },
 });
+
 module.exports = mongoose.model("Brandname", BrandName);
